@@ -1,0 +1,19 @@
+# Core dependencies
+numpy>=1.23
+tqdm>=4.64
+PyYAML>=6.0
+
+# Deep learning
+# Install the PyTorch build that matches your CUDA version from the official PyTorch website.
+torch>=2.0
+
+# Logging / experiment tracking, optional but commonly used by thsolver-style projects
+tensorboard>=2.10
+
+# Optional visualization helpers
+matplotlib>=3.6
+
+# Project-specific dependencies
+# thsolver and octgpt are used by main_fractal_v5.py.
+# If they are local modules, include them in this repository.
+# If they are external packages, install them according to their own documentation.
